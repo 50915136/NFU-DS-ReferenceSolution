@@ -11,9 +11,8 @@ class Account {
 
     Account(){};  // 預設建構子
 
-    Account(string id, string name, double balance = 0.0) : id(id),
-                                                            name(name),
-                                                            balance(balance) {}
+    Account(string id, string name, double balance = 0.0)
+        : id(id), name(name), balance(balance) {}
 };
 
 int main() {

@@ -1,6 +1,5 @@
 // 字串讀取問題
 #include <iostream>
-
 #include <string>
 
 using namespace std;

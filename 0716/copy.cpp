@@ -2,14 +2,14 @@
 
 using namespace std;
 
-void copy(int * begin, int * end, int * result) {
+void copy(int *begin, int *end, int *result) {
     int index = 0;
-    for (int * p = begin; p != end; p++) {
-        *(result + index++) = * p;
+    for (int *p = begin; p != end; p++) {
+        *(result + index++) = *p;
     }
 }
 
-void copy_(int * arr, int size, int * result) {
+void copy_(int *arr, int size, int *result) {
     for (int i = 0; i < size; i++) {
         result[i] = arr[i];
     }
@@ -17,7 +17,7 @@ void copy_(int * arr, int size, int * result) {
 
 int main() {
     // init
-    int * arr, * copied, size;
+    int *arr, *copied, size;
     cin >> size;
     arr = new int[size];
     for (int i = 0; i < size; i++) {
