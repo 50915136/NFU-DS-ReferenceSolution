@@ -12,13 +12,17 @@ class Account {
 };
 
 int main() {
-    Account acc;
-    acc1.id = "我愛";
-    acc1.name = "瑞克";
+    Account acc1;
+    acc1.id = "I Love";
+    acc1.name = "Rick";
     acc1.balance = 48;
 
     Account acc2;
-    acc2.id = "福瑞";
-    acc2.name = "搖";
+    acc2.id = "Furry";
+    acc2.name = "Roll";
     acc2.balance = 763;
+
+    // 物件的成員內容索引
+    cout << acc1.id << " " << acc1.name << " " << acc1.balance << "\n";
+    cout << acc2.id << " " << acc2.name << " " << acc2.balance << "\n";
 }
