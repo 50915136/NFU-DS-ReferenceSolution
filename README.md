@@ -10,11 +10,13 @@
 > 2. 基本陣列操作
 > 3. 字串讀取問題
 > 4. cola
+> 
 > 指標講解之後
-> 6. copy
-> 7. Swap
-> 8. 費式數列
-> 9. GCD 遞迴
+>
+> 1. copy
+> 2. Swap
+> 3. 費式數列
+> 4. GCD 遞迴
 
 1. [hello world](0716/hello.cpp)
 2. [copy](0716/copy.cpp)
