@@ -4,7 +4,7 @@
 
 ### 2024/07/16
 
-> [!NOTE] 題目建議練習順序
+> [!NOTE]
 >
 > 1. hello world
 > 2. 基本陣列操作
@@ -28,7 +28,7 @@
 
 ## LeetCode
 
-> [!IMPORTANT] LeetCode 題目須知
+> [!IMPORTANT]
 > LeetCode 題目是有空再刷就好，主要配合主題挑選題目練習 LeetCode 的操作與認識
 
 - [Two Sum](https://leetcode.com/problems/two-sum/description/)
